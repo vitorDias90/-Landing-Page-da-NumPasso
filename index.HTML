@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>NumPasso — Seu serviço em um clique</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      background-color: #121A24;
+      color: #FFFFFF;
+    }
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 40px;
+      background-color: #121A24;
+      border-bottom: 1px solid #2BAE66;
+    }
+    .logo {
+      font-family: 'Poppins', sans-serif;
+      font-size: 28px;
+      font-weight: bold;
+    }
+    .logo span:first-child {
+      color: #C8A200;
+    }
+    .logo span:last-child {
+      color: #2BAE66;
+    }
+    nav a {
+      margin: 0 15px;
+      color: #FFFFFF;
+      text-decoration: none;
+      font-weight: 500;
+    }
+    nav a:hover {
+      color: #2BAE66;
+    }
+    .hero {
+      text-align: center;
+      padding: 80px 20px;
+    }
+    .hero h1 {
+      font-family: 'Poppins', sans-serif;
+      font-size: 42px;
+      margin-bottom: 20px;
+    }
+    .hero p {
+      font-size: 18px;
+      margin-bottom: 30px;
+      color: #CCCCCC;
+    }
+    .cta-btn {
+      padding: 15px 30px;
+      background-color: #2BAE66;
+      border: none;
+      border-radius: 8px;
+      color: #121A24;
+      font-size: 16px;
+      cursor: pointer;
+      font-weight: bold;
+    }
+    .cta-btn:hover {
+      background-color: #249955;
+    }
+    .benefits {
+      display: flex;
+      justify-content: space-around;
+      padding: 60px 20px;
+      background-color: #1A2735;
+      flex-wrap: wrap;
+    }
+    .benefit {
+      max-width: 300px;
+      margin: 20px;
+      text-align: center;
+    }
+    .benefit h3 {
+      color: #2BAE66;
+      margin-bottom: 10px;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #121A24;
+      border-top: 1px solid #2BAE66;
+      font-size: 14px;
+      color: #888888;
+    }
+    @media (max-width: 768px) {
+      header {
+        flex-direction: column;
+      }
+      nav {
+        margin-top: 10px;
+      }
+      .benefits {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="logo">
+    <span>Num</span><span>Passo</span>
+  </div>
+  <nav>
+    <a href="#">Início</a>
+    <a href="#">Como Funciona</a>
+    <a href="#">Baixe o App</a>
+    <a href="#">Entrar</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <h1>Resolva agora. Em um clique.</h1>
+  <p>Simples, rápido e 100% online.</p>
+  <button class="cta-btn">Quero contratar um serviço</button>
+</section>
+
+<section class="benefits">
+  <div class="benefit">
+    <h3>Pagamento facilitado</h3>
+    <p>Use seu cartão de crédito e pague com segurança.</p>
+  </div>
+  <div class="benefit">
+    <h3>Serviços confiáveis</h3>
+    <p>Profissionais verificados e avaliados por você.</p>
+  </div>
+  <div class="benefit">
+    <h3>Profissionais da sua cidade</h3>
+    <p>Encontre quem resolve seu problema perto de você.</p>
+  </div>
+</section>
+
+<footer>
+  &copy; 2025 NumPasso. Todos os direitos reservados.
+</footer>
+
+</body>
+</html>
